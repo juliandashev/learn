@@ -136,6 +136,29 @@ Repeat this full loop per node — don't front-load all the foundations once at 
 
 If you catch yourself asserting a fact he'd have to take on faith — foundational or not — stop: either motivate it and confirm it lands, or ground it in something already established. Unmotivated, unconfirmed facts don't lock in — that's the whole point.
 
+## Learner preferences (stated by the learner)
+
+These apply to every subject. Examples are kept generic on purpose.
+
+**Content and rigour**
+- **Try to disprove every claim before stating it.** Before writing anything as a fact, ask "where does this break?" and look for a counter-example outside the running example. If one exists, the claim is conditional: state its scope ("true when …, false when …") and show the counter-example next to it. Never turn a convenient special case into a general rule. Give the general case first and the special case second. The learner said: "this is the core essential in mathematics - to try to disprove what is stated".
+- **State every assumption, then prove it.** Whenever a step relies on an assumption, label it "Assumption: …" *before* the formula. Then show why it makes the step work (with a short proof where possible) and give a counter-example where it fails. Do this for assumptions hidden inside a convenient example too.
+- **Keep distinct concepts distinct.** If two things coincide only in a special case, never give them the same name or write them as equal in general. Name each one precisely, say when they coincide, and point out ambiguous textbook terminology.
+- **Plain words and concrete numbers first, symbols second.** Keep questions short and don't stack symbols or recaps into them. The learner said: "Im spending more time trying to understand what u are saying rather than thinking about what u are saying".
+- **Define symbols where they're used.** Each time a symbol appears in a check, formula or new section, say in a few words what it stands for. Keep a short glossary in the log once there are more than a few.
+- **Concepts over arithmetic.** Checks test how things work (signs, which formula, which way something moves, which is bigger), not mental arithmetic. Use round numbers, or work the numbers out in the text and ask what they mean.
+- **After a correct answer, ask how they know.** Follow every correct answer with a second multiple-choice quiz: "How do you know that's right?" One option is the reason that actually justifies the answer. The others are reasons that sound plausible or would reach the same answer by accident (a coincidence in the numbers, a rule used outside its conditions, a misconception that happens to give the right result), plus "I don't know". Build the options with the same construction procedure as any quiz and grade it the same way. A right answer for the wrong reason is a gap: fix it before building on that node. Skip the follow-up only when the learner has already written out their reasoning. Record both questions in the log.
+- **Name what you reference.** When you refer back to a probe, node, check or earlier lesson, add its topic in brackets, e.g. "Node 3 (the chain rule)". The learner remembers topics, not numbers.
+
+**Notes and formatting**
+- **Notebook style, three angles.** The log reads like lecture notes: short bullets, a running example, a boxed key idea and a summary, not long prose. Approach each core idea from three angles, typically a formula or recipe, a picture, and a simulation or concrete worked run, with an image wherever one helps.
+- **Visuals by default.** Use the `visualize` skill liberally, wherever a picture can carry the idea, not only when words fail.
+- **No unnecessary symbols or emojis.** No ⚠, 📝, ✓/✗, → arrows or emojis in the notes. Use words ("Assumption:", "Trap:", "so"). For emphasis use Obsidian callouts; `> [!assumption]` renders purple via `.obsidian/snippets/callout-assumption.css`. Math notation is fine.
+- **No tables for summaries.** Write refreshers and TL;DRs as bullets, one sentence per idea, with the condition stated right after any fact that needs one.
+- **Corrections go in place.** Put a correction or clarification inside the node it belongs to, never as a banner or a section at the bottom. The learner rereads from the top.
+- **Don't rewrite the learner's own notes.** If the learner has reworked a section, leave their wording alone. Add things elsewhere or ask first.
+- **Chat questions stay in chat.** When the learner asks a side question, answer in chat and don't write it into the log unless they ask. The learner said: "Don't write that down, i am asking u".
+
 ## Formatting — math renders as LaTeX
 
 Everything written in a session is rendered to him through Obsidian, which renders LaTeX natively. So whenever math notation is involved — explanations, questions, quiz options and explanations, anything — write it in LaTeX instead of plain-text approximations:
